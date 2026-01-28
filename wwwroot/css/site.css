@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+}
+
+.screen {
+  width: 100%;
+  height: 100vh;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #00a651;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 12px;
+  margin-bottom: 100px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.btn-main {
+  background: #4a72c2;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  padding: 50px 30px;
+  font-size: 64px;
+  cursor: pointer;
+  margin-bottom: 200px;
+}
+
+.btn-sub {
+  background: #4a72c2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* ปุ่มล้างคิวสีเทา */
+.btn-gray {
+  background: #b0b0b0;
+  color: #333;
+}
+
+/* ตัวเลขคิว */
+.queue-number {
+  font-size: 96px;
+  font-weight: bold;
+}
+
+/* ข้อความ */
+.text {
+  font-size: 20px;
+}

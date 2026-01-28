@@ -1,0 +1,30 @@
+@page
+@model ClearModel
+
+<div class="screen">
+    <div class="header">IT 05-3</div>
+
+    <div class="content">
+
+        <form method="post">
+            <button class="btn-sub">
+                ล้างคิว
+            </button>
+        </form>
+
+        <div style="text">
+            หมายเลขคิวปัจจุบัน
+        </div>
+
+        <div class="queue-number">
+            @Model.Queue
+        </div>
+
+        <form method="get" action="/">
+            <button class="btn-sub">
+                กลับไปหน้ารับบัตรคิว
+            </button>
+        </form>
+
+    </div>
+</div>

@@ -1,0 +1,26 @@
+@page
+@model QueueModel
+
+<div class="screen">
+    <div class="header">IT 05-2</div>
+
+    <div class="content">
+
+        <div class="text">หมายเลขคิว</div>
+
+        <div class="queue-number">
+            @Model.Queue
+        </div>
+
+        <div class="text">
+            @Model.QueueTime
+        </div>
+
+        <form method="get" action="/">
+            <button class="btn-sub">
+                กลับไปหน้ารับบัตรคิว
+            </button>
+        </form>
+
+    </div>
+</div>

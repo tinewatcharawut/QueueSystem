@@ -1,0 +1,22 @@
+@page
+@model IndexModel
+
+<div class="screen">
+    <div class="header">IT 05-1</div>
+
+    <div class="content">
+
+        <form method="post">
+            <button class="btn-main" asp-page-handler="GetQueue">
+                รับบัตรคิว
+            </button>
+
+            <br /><br />
+
+            <button class="btn-sub btn-gray" asp-page-handler="Clear">
+                ล้างคิว
+            </button>
+        </form>
+
+    </div>
+</div>
